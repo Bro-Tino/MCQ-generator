@@ -14,6 +14,21 @@ Upload a PDF and get a set of MCQs instantly, powered by embeddings and language
 - ✍️ Auto-generate MCQs with accurate distractors
 - 💻 Interactive UI with `Streamlit`
 
+
 ---
 
-## 📁 Folder Structure
+## 🛠️ Installation
+# Clone the repository
+git clone https://github.com/Bro-Tino/MCQ-generator.git
+cd MCQ-generator
+
+# Create and activate virtual environment
+python -m venv venv
+venv\Scripts\activate     # On Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run MCQ-generator.py
+
